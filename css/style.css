@@ -1,0 +1,180 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@font-face {
+   font-family: "Scotch Modern";
+   src: url("../fonts/ScotchModern-Bold.woff2") format("woff2"), url("../fonts/ScotchModern-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Scotch Modern';
+   src: url("../fonts/ScotchModern.woff2") format("woff2"),url("../fonts/ScotchModern.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Circular Std';
+   src: url("../fonts/CircularStd-Book.woff2") format("woff2"),url("../fonts/CircularStd-Book.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Circular Std Bold';
+   src: url("../fonts/CircularStd-Bold.woff2") format("woff2"),url("../fonts/CircularStd-Bold.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+.wrapper {
+   overflow: hidden;
+   max-width: 1025px;
+   margin: 50px auto;
+}
+.title-figma {
+font-weight: 900;
+font-size: 65px;
+line-height: 126%;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.top {
+   font-size: 20px;
+   line-height: 1.25;
+   margin-bottom: 67px;
+   text-align: center;
+   width: 750px;
+   margin: 0 auto 57px auto;
+}
+.top, .middle {
+   color: #5F5F5F;
+   font-family: "Circular Std", sans-serif;
+}
+.zag {
+   font-size: 34px;
+}
+.zag, .bold-2 {
+   color: #313131;
+   font-family: "Circular Std Bold", sans-serif;
+   line-height: 1.3;
+}
+.title-figma, .text {
+   color: #313131;
+   font-family: "Circular Std", sans-serif;
+}
+.middle {
+   font-size: 18px;
+   line-height: 1.5;
+}
+.bold-2 {
+   font-size: 18px;
+   opacity: 0.88;
+   margin-bottom: 5px;
+}
+.text {
+   padding-left: 207px;
+   width: 715px;
+}
+.text-end{
+   line-height: 1.27;
+   color: #b8b8b8;
+   margin: 0 0 25px 0;
+}
+
+/*Стили для статьи*/
+a.link {
+   font-family: "Lora",serif;
+   line-height: 1.7;
+   font-size: 30px;
+   text-shadow: 3px 3px 20px rgb(224, 210, 3); 
+   color:indianred;
+}
+nav {
+   border: 5px dashed rgba(233, 134, 4, 0.87);
+   border-radius: 10px;
+   padding-left: 40px;
+}
+.link.figma{
+   color:rgb(11, 243, 50);
+}
+.title, .zagol {
+   color:#cc493d;
+   font-family: "Scotch Modern",sans-serif;
+   text-align: center;
+   font-weight: 700;
+}
+.title {
+   font-size: 64px;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   text-shadow: 3px 3px 3px black;
+   margin: 0px 0px 40px auto;
+   text-align: right;
+}
+.zagol{
+   font-size: 32px;
+   margin: 20px;
+   box-shadow: 5px 10px 25px 1px rgba(245, 19, 19, 0.904);
+   background-color: antiquewhite;
+   opacity: 0.7;
+}
+
+p.content-text, .content-text-scroll, .content-text-end {
+   font-family: "Lora",serif;
+   font-size: 18px;
+   line-height: 1.7;
+   text-align: justify;
+   text-indent: 40px;
+}
+.content-text-scroll{
+   height: 150px;
+   overflow: scroll;
+}
+.content-text-end{
+   height: 300px;
+   overflow: hidden;
+}
+.bold-text {
+   font-family: "Caveat", cursive;
+   font-size: 30px;
+   line-height: 1.5;
+   text-align: center;
+   margin: 25px 0;
+   border-bottom: 10px double #000;
+}
+.author {
+   font-size: 15px;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   line-height: 1.7;
+   text-align: center;
+   font-family: "Scotch Modern",sans-serif;
+   font-weight: 400;
+   margin: 0px 0px 15px 0px;
+   border: 5px dashed rgba(231, 187, 40, 0.904);
+}
+.commet {
+   font-family: "Lora",serif;
+   font-size: 14px;
+   line-height: 1.5;
+   padding: 0px 0px 10px 0px;
+   min-width: 100px;
+   outline: 3px dotted orange;
+}
+img {
+   border-radius: 15px;
+   margin-bottom: 25px;
+}
+.image {
+   border-radius: 50%;
+   overflow: hidden;
+   height: 400px;
+   width: 400px;
+   margin-bottom: 20px;
+}
+
